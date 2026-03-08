@@ -3,7 +3,7 @@ title: "Meta-objects: interactive and multisensory virtual objects learned from 
 collection: publications
 permalink: /publication/kimMetaobjectsInteractiveMultisensory2025
 excerpt: ''
-date: 2025-05
+date: 2025-05-01
 venue: 'IEEE Computer Graphics and Applications'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11086526'
 imgurl: 'Pasted image 20260308214105.png'

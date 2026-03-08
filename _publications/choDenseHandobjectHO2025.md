@@ -3,7 +3,7 @@ title: "Dense hand-object (HO) GraspNet with full grasping taxonomy and dynami
 collection: publications
 permalink: /publication/choDenseHandobjectHO2025
 excerpt: ''
-date: 2024-09
+date: 2024-09-01
 venue: 'European Conference on Computer Vision (ECCV), 2024'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-73007-8_17'
 imgurl: 'Pasted image 20260308212815.png'

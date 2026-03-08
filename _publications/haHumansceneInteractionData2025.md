@@ -3,7 +3,7 @@ title: "Human-scene interaction data generation with virtual environment using u
 collection: publications
 permalink: /publication/haHumansceneInteractionData2025
 excerpt: ''
-date: 2025-03
+date: 2025-03-01
 venue: 'IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2025'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10973024'
 imgurl: 'Pasted image 20260308213755.png'

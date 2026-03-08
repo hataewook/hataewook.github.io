@@ -3,7 +3,7 @@ title: "Crowd data-driven artwork placement in virtual exhibitions for visitor d
 collection: publications
 permalink: /publication/hongCrowdDatadrivenArtwork2024
 excerpt: ''
-date: 2024-10
+date: 2024-10-01
 venue: 'IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2024'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10765412'
 imgurl: 'Pasted image 20260308213401.png'
