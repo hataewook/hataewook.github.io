@@ -1,0 +1,11 @@
+{
+  "cssTheme": "PLN",
+  "accentColor": "",
+  "baseFontSize": 21,
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "litnote-colors",
+    "S - Checkboxes"
+  ]
+}
