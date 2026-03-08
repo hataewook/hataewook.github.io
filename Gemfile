@@ -11,3 +11,8 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+
+# ffi 1.17+ requires Ruby >= 3.0. Keep Ruby 2.7 local setups installable.
+if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('3.0')
+  gem 'ffi', '< 1.17'
+end

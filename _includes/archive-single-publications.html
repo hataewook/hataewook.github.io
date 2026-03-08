@@ -1,0 +1,48 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<tr style="height: 150px;">
+  <td style="padding:10px;width:30%;vertical-align:middle;border:0px;border-spacing:0px;">
+    <div style="max-width:240px;height:150px;overflow: hidden;display: block;margin-left: auto;margin-right: auto;">
+      <span style="display: inline-block; vertical-align: middle;"></span>
+      <img src="{{ post.imgurl | prepend: '/images/' }}">
+    </div>
+  </td>
+  <td style="padding:10px;width:70%;vertical-align:middle;border:0px;border-spacing:0px;font-size: 1.2em;">
+    <a href="{{ post.paperurl }}" target="_blank"> 
+      <strong>{{post.title}}</strong>
+    </a>
+    <br>
+    {% for author in post.authors %}
+      {% if author.link.size > 0  %}
+        <a href="{{author.link}}" target="_blank">{{author.name}}</a>{% if author.star %}*{% endif %}{% unless forloop.last %}, {% endunless %}
+      {% else %}
+        <strong>{{author.name}}</strong>{% if author.star %}*{% endif %}{% unless forloop.last %}, {% endunless %}
+      {% endif %}
+    {% endfor %}
+    
+    <br>
+    <em>{{post.venue}}</em>
+
+    <br>
+    {% for link in post.links %}
+      <a href="{{link.link}}" target="_blank">[{{link.name}}]</a> 
+    {% endfor %}
+
+    <!-- <br>
+    <div style="padding-top:4px">
+      <p>{{post.excerpt}}</p>
+    </div> -->
+  </td>
+</tr>
