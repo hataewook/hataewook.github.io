@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Taweook Ha's Homepage"
+title                    : "Taweook Ha's Resume"
 title_separator          : "-"
 name                     : &name "Taewook Ha"
 description              : &description "Taewook Ha, Ph.D. Student in UVR Lab at KAIST"   # Update this with a general description of your site, this is the default if not overridden by a page
