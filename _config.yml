@@ -23,7 +23,7 @@ repository               : "hataewook/hataewook.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_photo.png"
   name             : "Taewook Ha"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student in UVR Lab at KAIST"
