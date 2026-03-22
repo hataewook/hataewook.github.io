@@ -81,7 +81,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
-  resume           : "files/paper1.pdf"
+  resume           : #"files/paper1.pdf"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -222,6 +222,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -260,6 +263,15 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true
