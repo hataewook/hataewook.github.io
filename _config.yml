@@ -81,7 +81,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
-  resume           : #"files/paper1.pdf"
+  resume           : "files/cv.pdf"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
