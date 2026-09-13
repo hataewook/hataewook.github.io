@@ -6,7 +6,7 @@ excerpt: ""
 date: 2026-03-08
 venue: IEEE Transactions on Visualization and Computer Graphics
 paperurl: http://arxiv.org/abs/2603.07627
-imgurl: Pasted image 20260411111147.png
+imgurl: 'Pasted image 20260411111147.png'
 authors:
   - name: name: Seonji Kim
     link: https://scholar.google.com/citations?user=dSh0LHkAAAAJ&hl=en&oi=ao
