@@ -8,7 +8,7 @@ venue: IEEE Transactions on Visualization and Computer Graphics
 paperurl: http://arxiv.org/abs/2603.07627
 imgurl: 'Pasted image 20260411111147.png'
 authors:
-  - name: name: Seonji Kim
+  - name: Seonji Kim
     link: https://scholar.google.com/citations?user=dSh0LHkAAAAJ&hl=en&oi=ao
   - name: Dooyoung Kim
     link: https://scholar.google.com/citations?hl=en&user=2DwDeKIAAAAJ
